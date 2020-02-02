@@ -7,10 +7,6 @@ const char* password = "password";//接続するアクセスポイントのパ�
 
 //Art-Net setting
 ArtnetWifi artnet;
-const int startUniverse = 0;
-
-bool sendFrame = 1;
-int previousDataLength = 0;
 
 //M5Stack Lcd setting
 int pos_x = 40;
